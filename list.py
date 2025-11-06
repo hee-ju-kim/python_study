@@ -70,13 +70,13 @@ gift.insert(1, "색연필")
 print(gift)
 
 
-del gift[1]
+del gift[1] # 인덱스로지우기
 print(gift)
 
 del gift[1:4]
 print(gift)
 
-gift.remove('가방')
+gift.remove('가방') # 값으로지우기
 print(gift)
 
 if "색연필" in gifts:
